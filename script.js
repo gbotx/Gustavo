@@ -14,7 +14,6 @@ window.onload = function() {
                 link.textContent = dataPagamento;
                 link.href = `${textoLink.replace(/\//g, '-')}.pdf`; // Usar textoLink para criar o link
                 link.setAttribute('download', ''); // Adiciona o atributo download
-                link.setAttribute('type', 'application/pdf'); // Força o tipo de arquivo
                 pagamento.appendChild(link);
                 listaPagamentos.appendChild(pagamento);
             });
