@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#lista-pagamentos {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px auto;
+    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#lista-pagamentos li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#lista-pagamentos li:last-child {
+    border-bottom: none;
+}
+
+#lista-pagamentos li:hover {
+    background-color: rgb(187, 187, 187);
+    color: rgb(0, 0, 0);
+}
